@@ -1,0 +1,20 @@
+body{
+	background: #B3B3B3;
+	font-size: 150%;
+	margin: 4%
+}
+header{
+	background: #ee82ee;
+	text-align: center;
+	padding: 15px;
+}
+h1{
+	background: #6a5acd;
+	font-size: 150%;
+	color: #FFFFFF;
+}
+nav{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-family: Arial, "Times New Roman", serif;
+}
