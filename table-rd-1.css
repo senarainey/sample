@@ -1,7 +1,7 @@
 @media only screen and (min-width: 390px) {
 		header { 
       background: #FFFF00; 
-      width:100%;
+      width: 100%;
 	padding: 1%;
 	text-align: center;
 	color: #ffffff;
@@ -37,16 +37,14 @@ h1{
 	padding: 1%;
 	text-align: center;
 	color: #ffffff;
-
     }
 	
 header { 
   width:100%;
   background: #0000FF; 
   font-size:150%;
-
 }
-}
+	}
 
 h1{
 	color: #ffffff;
