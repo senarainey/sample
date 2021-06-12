@@ -1,11 +1,35 @@
 @media only screen and (min-width: 390px) {
 		header { 
       background: #FFFF00; 
-      width:50%;
+      width:100%;
 	padding: 1%;
 	text-align: center;
-	color: #ffffff;
+	color: #000000;
+	}
+			nav a{
+	background-color: #ffffff;
+	display: inline-block;
+	text-decoration: none;
+	width: 20%;
+	text-align: center;
+	padding: 1%;
+	border-radius: 15px;
 }
+a:hover{
+background-color: #b4b4b4; 
+opacity: 0.7;
+}
+.active{
+		background-color: #666666;
+		color: #ffffff;
+		opacity: 1;
+}
+h1{
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+}
+	}
  @media only screen and (min-width: 1024px) {
 		header{ 
       background: #008800;
@@ -13,18 +37,16 @@
 	padding: 1%;
 	text-align: center;
 	color: #ffffff;
-
     }
 	
 header { 
   width:100%;
   background: #0000FF; 
   font-size:150%;
-
 }
 
 h1{
-	color: #ffffff;
+	color: #000000;
 	text-align: center;
 	text-transform: uppercase;
 }
