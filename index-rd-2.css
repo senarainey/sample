@@ -21,6 +21,7 @@ nav a{
 	padding:1% 2%;
 	border-radius: 25px;
 }
+	}
 @media all and (min-width: 900px){
   nav{
     border:1px solid #000000;
