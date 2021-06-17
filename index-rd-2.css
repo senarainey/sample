@@ -22,7 +22,7 @@ nav a{
 	border-radius: 25px;
 }
 
-@media only screen (min-width: 320px){
+@media all and (min-width: 320px){
   nav{
     border:1px solid #000000;
     color:#06425C;
