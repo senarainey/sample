@@ -2,7 +2,7 @@ body{
 	margin: 1%;
 	padding:1%;
 }
-
+@media all and (min-width: 320px)
 nav{
 	border: 1px solid #06425C;
 	color:#06425C;
@@ -22,7 +22,7 @@ nav a{
 	padding:1% 2%;
 	border-radius: 25px;
 }
-
+	}
 @media all and (min-width: 900px){
     
   nav{
@@ -55,6 +55,7 @@ a:hover{
 background-color: #b4b4b4; 
 opacity: 0.7;
 }
+	}
 section{
   display:inline-block;
   width:70%;
