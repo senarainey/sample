@@ -2,7 +2,6 @@ body{
 	margin: 1%;
 	padding:1%;
 }
-@media only screen (min-width: 320px){
 nav{
 	border: 1px solid #06425C;
 	color:#06425C;
@@ -23,7 +22,7 @@ nav a{
 	border-radius: 25px;
 }
 
-	}  
+@media only screen (min-width: 320px){
   nav{
     border:1px solid #000000;
     color:#06425C;
@@ -54,6 +53,7 @@ a:hover{
 background-color: #b4b4b4; 
 opacity: 0.7;
 }
+	}
 section{
   display:inline-block;
   width:70%;
