@@ -2,7 +2,6 @@ body{
 	margin: 1%;
 	padding:1%;
 }
-@media only screen (min-width: 320px){
 nav{
 	border: 1px solid #06425C;
 	color:#06425C;
@@ -21,7 +20,6 @@ nav a{
 	padding:1% 2%;
 	border-radius: 25px;
 }
-	}
 @media all and (min-width: 900px){
   nav{
     border:1px solid #000000;
