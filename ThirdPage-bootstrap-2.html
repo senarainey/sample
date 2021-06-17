@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href=
+"https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+		integrity=
+"sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+		crossorigin="anonymous">
+
+	<title>My Third Page</title>
+
+	<style>
+		.icon,
+		h5 {
+			color: green;
+		}
+
+		.links a:hover,
+		.icon:hover {
+			background-color: green;
+			color: white;
+			transition: 0.4s all linear;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="pt-2 pb-2 border-bottom">
+			<a class="icon pl-2 pr-2 p-1
+				float-right" href="#hamburger-icon"
+				onclick="gfgMenu()">
+
+				<i class="fa fa-bars"></i>
+			</a>
+			<a class="pt-2 pb-2 text-success
+				text-decoration-none font-weight
+						-bold" href="index-bootstrap-2.html#Home">
+				Bootstrap (Version 2)
+			</a>
+		</div>
+		<div class="links nav flex-column d-none">
+			<a class="nav-link border-bottom"
+				href="FirstPage-bootstrap-2.html#gfg2"> One </a>
+
+			<a class="nav-link border-bottom"
+				href="SecondPage-bootstrap-2.html#gfg2"> Two </a>
+
+			<a class="nav-link border-bottom"
+				href="ThirdPage-bootstrap-2.html#gfg3"> Three </a>
+
+			<a class="nav-link border-bottom"
+				href="contact-bootstrap-2.html#gfg4"> Contact </a>
+
+			<a class="nav-link border-bottom"
+				href="#gfg5"> HTML </a>
+			
+			<a class="nav-link border-bottom"
+				href="#gfg6"> CSS (Version 1)</a>
+
+			<a class="nav-link border-bottom"
+				href="#gfg7"> CSS (Version 2)</a>
+
+			<a class="nav-link border-bottom"
+				href="#gfg8"> CSS (Version 3)</a>
+
+			<a class="nav-link border-bottom"
+				href="#gfg9"> CSS (Version 4)</a>
+
+			<a class="nav-link border-bottom"
+				href="#gfg10"> RD (Version 1)</a>
+
+			<a class="nav-link border-bottom"
+				href="#gfg11"> RD (Version 2)</a>
+
+			<a class="nav-link border-bottom"
+				href="#gfg12"> Gallery (JS)</a>
+
+			<a class="nav-link border-bottom"
+				href="#gfg13"> Bootstrap (Version 1)</a>
+		</div>
+<section class="section-content py-5">
+
+<h1>Updates</h1>
+<p>6/7/2021: Updated Bootstrap (Version 1) pages to make them mobile-accessible.</p>
+<p>2/25/2021: Added Bootstrap (Version 1) pages.</p>
+<p>2/8/2021: Added Gallery (JS [JavaScript]); and RD (Responsive Design) versions 1 and 2 pages.</p>
+<p>1/31/2021: Changed the titles of all the index pages to "Web Design".</p>
+<p>1/14/2021-1/15/2021: Added version 4 of CSS pages.</p>
+<p>1/2/2021: Added versions 2 and 3 of CSS pages.</p>
+<P>11/24/2020: Created CSS version of my main page.</p>
+<P>11/21/2020: Completed code for final project and used WAVE (web accessibility evaluation tool) for each page on Github.</p>
+
+</section>
+<script>
+		function gfgMenu() {
+			const GFG = document.querySelector('.links');
+			if (GFG.classList.contains('d-none')) {
+				GFG.classList.remove('d-none');
+			}
+			else {
+				GFG.classList.add('d-none');
+			}
+		}
+	</script>
+
+  </body>
+</html>
