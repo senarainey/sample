@@ -1,3 +1,7 @@
+body{
+	margin: 1%;
+	padding: 1%;
+}
 nav{
 	border: 1px solid #06425C;
 	color: #06425C;
@@ -46,11 +50,6 @@ nav a{
 a:hover{
 background-color: #b4b4b4; 
 opacity: 0.7;
-}
-
-body{
-	margin: 1%;
-	padding: 1%;
 }
 section{
   display: inline-block;
