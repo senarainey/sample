@@ -20,7 +20,8 @@ nav a{
 	padding: 1% 2%;
 	border-radius: 25px;
 }
-@media all and (min-width: 900px){
+
+@media all screen (min-width: 900px){
   nav{
     border:1px solid #000000;
     color: #06425C;
@@ -51,6 +52,7 @@ background-color: #b4b4b4;
 opacity: 0.7;
 }
 	}
+
 section{
   display: inline-block;
   width: 70%;
