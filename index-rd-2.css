@@ -1,4 +1,4 @@
-@media only screen and (max-width: 320px){
+@media screen and (max-width: 320px){
 nav{
 	border: 1px solid #06425C;
 	color: #06425C;
@@ -19,7 +19,7 @@ nav a{
 }
 	}
 
-@media only screen and (max-width: 1020px){
+@media screen and (max-width: 1020px){
   nav{
     border:1px solid #000000;
     color: #06425C;
