@@ -1,23 +1,23 @@
 body{
 	margin: 1%;
-	padding:1%;
+	padding: 1%;
 }
 nav{
 	border: 1px solid #06425C;
-	color:#06425C;
+	color: #06425C;
 	background-color:#FFFFFF;
-	padding-left:8%;
+	padding-left: 8%;
 }
 nav a{
-	box-sizing:border-box;
-	display:inline-block;
+	box-sizing: border-box;
+	display: inline-block;
 	line-height: 45px;
-	height:60px;
+	height: 60px;
 	color: #FFFFFF;
 	background-color:#486B02;
 	text-decoration: none;
-	margin:1% 2% 1% 8%;
-	padding:1% 2%;
+	margin: 1% 2% 1% 8%;
+	padding: 1% 2%;
 	border-radius: 25px;
 }
 @media all and (min-width: 900px){
