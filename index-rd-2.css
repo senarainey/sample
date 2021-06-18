@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px){
+@media all screen and (max-width: 320px){
 nav{
 	border: 1px solid #06425C;
 	color: #06425C;
